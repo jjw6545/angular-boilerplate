@@ -1,0 +1,61 @@
+.buttons{
+    padding: 5px;
+    color: blue;
+ }
+ 
+ .buttons:hover{
+   background-color: orange;
+ }
+ 
+ .buttons:focus {
+   background-color: orange; 
+ }
+ 
+ 
+ .all{
+   border-width: 5px;
+   width: 400px;
+   max-width: 500px;
+   margin: auto;
+   margin-top: 10px;
+ }
+ 
+ .title{
+   text-align: center;
+   font-size: 40px;
+ }
+ 
+ .name{
+   text-align: center;
+ }
+ .content{
+    text-align: center;
+ }
+ img {
+   width: 300px;
+ }
+ 
+ p {
+ /*   text-align: left;  */
+   text-indent: 5%;
+   font-size: 18px;
+ }
+ 
+ .detailsButton {
+   margin: 12px;
+   position: center; 
+   color: blue;
+ }
+ 
+   @media (min-width: 500px) and (max-width: 800px) {
+     
+     .detailsButton {
+       display: none;
+     }
+ 
+ @media (max-width: 500px) {
+   .all{
+     transform: scale(0.8);
+   }
+ }
+}
